@@ -1,0 +1,6 @@
+import { writeFileSync as writeFile } from 'node:fs';
+import { MATERIAL_CONTROLS, MATERIAL_LAYERS } from '../src/glass/material-settings';
+import { MOTION_CONTROLS } from '../src/glass/motion';
+import { ACCEPTED_MATERIAL, ACCEPTED_MOTION } from '../src/glass/presets';
+const table=(controls:Record<string,{label:string;min:number;max:number;step:number;unit?:string}>,defaults:Record<string,unknown>)=>['| 参数 | 名称 | 范围 | 步长 | 验收默认 |','| --- | --- | --- | --- | --- |',...Object.entries(controls).map(([key,c])=>`| \`${key}\` | ${c.label} ${c.unit??''} | ${c.min}–${c.max} | ${c.step} | ${defaults[key]} |`)].join('\n');
+writeFile('docs/PARAMETERS.md',`# 参数与验收默认\n\n由实际源码生成：\`node --import tsx scripts/generate-parameters.ts\`。单位未单列时见控件标签及面板说明。所有参数经过有限数值/字段白名单校验；预设默认来自 candidate24 与 candidate10。\n\n## 材质\n\n${table(MATERIAL_CONTROLS,ACCEPTED_MATERIAL)}\n\n## 材质层开关\n\n${Object.entries(MATERIAL_LAYERS).map(([k,v])=>`- \`${k}\`：${v}；默认 ${ACCEPTED_MATERIAL[k as keyof typeof ACCEPTED_MATERIAL]}`).join('\n')}\n\n\`menuFrost\` 默认 true：只对菜单使用固定 σ=6 DIP。关闭后跟随主体。\`debugView\` 为 normal / highlight / refraction，保存只保留 normal。采集目标 30 / 60 fps 不保证实际帧率。\n\n## 动效\n\n${table(MOTION_CONTROLS,ACCEPTED_MOTION)}\n\n\`enabled\`、\`liquid\` 默认 true；阶段 \`stage\` 为 1–4，默认 4。阶段依次增加按钮、抓起/松手、状态提示和焦点/拖动。\`reduced\` 默认 false，系统减少动态效果仍优先生效。\n\n材质与动效独立保存，恢复预设和导入只影响预览。磁盘路径、失败回退和重启规则见 README。\n`);

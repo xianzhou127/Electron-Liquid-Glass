@@ -1,0 +1,17 @@
+import { build } from 'esbuild';
+import { mkdir, copyFile, writeFile } from 'node:fs/promises';
+import { execFileSync } from 'node:child_process';
+import path from 'node:path';
+if(process.platform !== 'win32') throw new Error('This adapter currently requires Windows x64.');
+await mkdir('dist/renderer',{recursive:true}); await mkdir('dist/native',{recursive:true});
+const compiler=path.join(process.env.WINDIR || 'C:/Windows','Microsoft.NET/Framework64/v4.0.30319/csc.exe');
+execFileSync(compiler,['/nologo','/target:exe','/platform:x64','/optimize+','/reference:System.Web.Extensions.dll',`/out:${path.resolve('dist/native/source-catalog.exe')}`,path.resolve('src/native/source-catalog.cs')],{windowsHide:true,stdio:'inherit'});
+for(const entry of ['main','preload']) await build({entryPoints:[`src/${entry}.ts`],outfile:`dist/${entry}.cjs`,platform:'node',target:'node24',format:'cjs',bundle:true,external:['electron']});
+const result=await build({entryPoints:['src/glass/entry.tsx'],outfile:'dist/renderer/glass.js',platform:'browser',target:'chrome152',format:'iife',bundle:true,minify:true,metafile:true,define:{'process.env.NODE_ENV':'"production"'},legalComments:'linked'});
+if(Object.keys(result.metafile.inputs).some(file=>/src\/(main|sources)|glass\/(host|settings-store)\.ts/.test(file))) throw new Error('Privileged code entered renderer');
+await copyFile('src/glass/index.html','dist/renderer/glass.html');
+await mkdir('dist/licenses',{recursive:true});
+for(const [from,to] of [['src/glass/upstream/LICENSE.txt','upstream-MIT.txt'],['src/glass/UPSTREAM.md','UPSTREAM.md'],['LICENSE.md','LICENSE.md'],['THIRD_PARTY_NOTICES.md','THIRD_PARTY_NOTICES.md']]) await copyFile(from,`dist/licenses/${to}`);
+for(const name of ['react','react-dom']) await copyFile(`node_modules/${name}/LICENSE`,`dist/licenses/${name}-LICENSE.txt`);
+await writeFile('dist/package.json',JSON.stringify({name:'electron-liquid-glass',version:'0.1.0',private:true,main:'main.cjs'}));
+console.log('Production bundle ready: dist/');

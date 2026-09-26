@@ -1,0 +1,571 @@
+{
+  "extractedAt": "2026-09-26T04:39:17.362Z",
+  "commit": "e4510f52dabf0e2cf64b0bbf92d158de735e5518",
+  "glassWorktreeDiff": "",
+  "sourceFiles": [
+    {
+      "source": "desktop/glass/adaptive-frost.ts",
+      "target": "src/glass/adaptive-frost.ts",
+      "sha256": "563ff57a18fa73a3f4a34be8f6f03de8b2d2b73e4d668b0f7da6275ab361024b",
+      "normalizedSourceSha256": "563ff57a18fa73a3f4a34be8f6f03de8b2d2b73e4d668b0f7da6275ab361024b",
+      "normalizedExtractedSha256": "563ff57a18fa73a3f4a34be8f6f03de8b2d2b73e4d668b0f7da6275ab361024b",
+      "adapted": false
+    },
+    {
+      "source": "desktop/glass/adaptive-ink.ts",
+      "target": "src/glass/adaptive-ink.ts",
+      "sha256": "fb292b594198986159e18a7a12a60b5c356ed02cfef349068482b0e2219c9172",
+      "normalizedSourceSha256": "fb292b594198986159e18a7a12a60b5c356ed02cfef349068482b0e2219c9172",
+      "normalizedExtractedSha256": "fb292b594198986159e18a7a12a60b5c356ed02cfef349068482b0e2219c9172",
+      "adapted": false
+    },
+    {
+      "source": "desktop/glass/api.ts",
+      "target": "src/glass/api.ts",
+      "sha256": "a281baedebc4f83cd239973269d964b15cc919853204899171302dfa3e85a0c4",
+      "normalizedSourceSha256": "5bc61ed87b2f9e7db8b8761f2ec98fa7c86a7f6b55fe61963fcc536973dfcd6b",
+      "normalizedExtractedSha256": "e68d0d1e63ca2ded20727ea8b434384e6fee1a2df403798f06840a5fa082fcb8",
+      "adapted": true
+    },
+    {
+      "source": "desktop/glass/appearance.tsx",
+      "target": "src/glass/appearance.tsx",
+      "sha256": "30219b96523704a2000717f10bbcecde2d813d3c324db6b7368dcff4e3c248a4",
+      "normalizedSourceSha256": "30219b96523704a2000717f10bbcecde2d813d3c324db6b7368dcff4e3c248a4",
+      "normalizedExtractedSha256": "c66ce1d48a01bdfe6e4db97070db01599d665ae483d8d79449f2292c010204c7",
+      "adapted": true
+    },
+    {
+      "source": "desktop/glass/capsule.tsx",
+      "target": "src/glass/capsule.tsx",
+      "sha256": "b8515b86f8ffa921de9002d91faabda8603ae54c1454ee67d30e97f351c0eecd",
+      "normalizedSourceSha256": "2cbc04c7ffead29895ffcb7e2f9e52eb06ccbd15c51498636bfd28a665f5f505",
+      "normalizedExtractedSha256": "42188f54861011fd2ec7f1bf660c16ed20382e6a6f8d2b592cf49a8e560c4b22",
+      "adapted": true
+    },
+    {
+      "source": "desktop/glass/capture.ts",
+      "target": "src/glass/capture.ts",
+      "sha256": "88cff3cbef9ae6b76684da84b22514f985400c236509f2dbaa865bcfac874f6a",
+      "normalizedSourceSha256": "b17748378f64a099a2a0e2e82b62fab6d74affbadd215af1fac2a63eaf3945a7",
+      "normalizedExtractedSha256": "b17748378f64a099a2a0e2e82b62fab6d74affbadd215af1fac2a63eaf3945a7",
+      "adapted": false
+    },
+    {
+      "source": "desktop/glass/contract.ts",
+      "target": "src/glass/contract.ts",
+      "sha256": "1039e88213e0b9c51b59aded984544fc4490734fd0b6cef7a0adf77343f23605",
+      "normalizedSourceSha256": "ef2cddd865f1cf40f59448d7a05e6418d6806548eca81657a41b5895546aeca5",
+      "normalizedExtractedSha256": "ef2cddd865f1cf40f59448d7a05e6418d6806548eca81657a41b5895546aeca5",
+      "adapted": false
+    },
+    {
+      "source": "desktop/glass/deformation.ts",
+      "target": "src/glass/deformation.ts",
+      "sha256": "9e68a09e1858b7d20150189ad78a69868f630a0c0595c33d90cc409e90bad361",
+      "normalizedSourceSha256": "9e68a09e1858b7d20150189ad78a69868f630a0c0595c33d90cc409e90bad361",
+      "normalizedExtractedSha256": "9e68a09e1858b7d20150189ad78a69868f630a0c0595c33d90cc409e90bad361",
+      "adapted": false
+    },
+    {
+      "source": "desktop/glass/desktop-layout.ts",
+      "target": "src/glass/desktop-layout.ts",
+      "sha256": "eff96edf0556c1ce297c9a5c60ebb055332d28db7a68983b685d58b92b4256ef",
+      "normalizedSourceSha256": "eff96edf0556c1ce297c9a5c60ebb055332d28db7a68983b685d58b92b4256ef",
+      "normalizedExtractedSha256": "eff96edf0556c1ce297c9a5c60ebb055332d28db7a68983b685d58b92b4256ef",
+      "adapted": false
+    },
+    {
+      "source": "desktop/glass/display-adaptation.ts",
+      "target": "src/glass/display-adaptation.ts",
+      "sha256": "808b02b0a10a10aa7763dceae7d12f915d273cad77b6c27fba53155dbafd25f3",
+      "normalizedSourceSha256": "808b02b0a10a10aa7763dceae7d12f915d273cad77b6c27fba53155dbafd25f3",
+      "normalizedExtractedSha256": "808b02b0a10a10aa7763dceae7d12f915d273cad77b6c27fba53155dbafd25f3",
+      "adapted": false
+    },
+    {
+      "source": "desktop/glass/display-cache.ts",
+      "target": "src/glass/display-cache.ts",
+      "sha256": "2e7a16bf2dbdc5715daf22851fd1d840f83e80e86fd620442b05333a0be919cf",
+      "normalizedSourceSha256": "2e7a16bf2dbdc5715daf22851fd1d840f83e80e86fd620442b05333a0be919cf",
+      "normalizedExtractedSha256": "7758ccf6710629d58205a3166e7f07021b4581253a169fcaf43508516b7bd093",
+      "adapted": true
+    },
+    {
+      "source": "desktop/glass/display-streams.ts",
+      "target": "src/glass/display-streams.ts",
+      "sha256": "eac43482b7ab4432f7499e055fad49ea37f55993f3b67626c41a817b7b66fe64",
+      "normalizedSourceSha256": "eac43482b7ab4432f7499e055fad49ea37f55993f3b67626c41a817b7b66fe64",
+      "normalizedExtractedSha256": "eac43482b7ab4432f7499e055fad49ea37f55993f3b67626c41a817b7b66fe64",
+      "adapted": false
+    },
+    {
+      "source": "desktop/glass/distance-light.ts",
+      "target": "src/glass/distance-light.ts",
+      "sha256": "601aca57f2e1290a08247a35d9143ab7ae0131c9675517b776a98d6ad4c31cee",
+      "normalizedSourceSha256": "601aca57f2e1290a08247a35d9143ab7ae0131c9675517b776a98d6ad4c31cee",
+      "normalizedExtractedSha256": "601aca57f2e1290a08247a35d9143ab7ae0131c9675517b776a98d6ad4c31cee",
+      "adapted": false
+    },
+    {
+      "source": "desktop/glass/elastic.ts",
+      "target": "src/glass/elastic.ts",
+      "sha256": "e926c01e52b1756b172da962c94a9c1742167e716c9c891297cd2f8df3adffd3",
+      "normalizedSourceSha256": "e926c01e52b1756b172da962c94a9c1742167e716c9c891297cd2f8df3adffd3",
+      "normalizedExtractedSha256": "e926c01e52b1756b172da962c94a9c1742167e716c9c891297cd2f8df3adffd3",
+      "adapted": false
+    },
+    {
+      "source": "desktop/glass/elevation.ts",
+      "target": "src/glass/elevation.ts",
+      "sha256": "bd1f44d1edb3bbcccd7b59446895a4195edd917c7e6a6d29f07deeafd5648f63",
+      "normalizedSourceSha256": "bd1f44d1edb3bbcccd7b59446895a4195edd917c7e6a6d29f07deeafd5648f63",
+      "normalizedExtractedSha256": "bd1f44d1edb3bbcccd7b59446895a4195edd917c7e6a6d29f07deeafd5648f63",
+      "adapted": false
+    },
+    {
+      "source": "desktop/glass/entry.tsx",
+      "target": "src/glass/entry.tsx",
+      "sha256": "f78242bc8b3339266d23791fcea66a95f1a013ac9b8250424494301c75149753",
+      "normalizedSourceSha256": "f78242bc8b3339266d23791fcea66a95f1a013ac9b8250424494301c75149753",
+      "normalizedExtractedSha256": "f78242bc8b3339266d23791fcea66a95f1a013ac9b8250424494301c75149753",
+      "adapted": false
+    },
+    {
+      "source": "desktop/glass/foreground-mask.ts",
+      "target": "src/glass/foreground-mask.ts",
+      "sha256": "65f319850eea8707b9a84ed636ad40f7eae83abd76a0a5115a00d00b6a65acca",
+      "normalizedSourceSha256": "65f319850eea8707b9a84ed636ad40f7eae83abd76a0a5115a00d00b6a65acca",
+      "normalizedExtractedSha256": "65f319850eea8707b9a84ed636ad40f7eae83abd76a0a5115a00d00b6a65acca",
+      "adapted": false
+    },
+    {
+      "source": "desktop/glass/frame-scheduler.ts",
+      "target": "src/glass/frame-scheduler.ts",
+      "sha256": "0461b29587bfe12d1404b381b9d9b265380cb8745b2547c3870a0fb4c66b1fce",
+      "normalizedSourceSha256": "0461b29587bfe12d1404b381b9d9b265380cb8745b2547c3870a0fb4c66b1fce",
+      "normalizedExtractedSha256": "0461b29587bfe12d1404b381b9d9b265380cb8745b2547c3870a0fb4c66b1fce",
+      "adapted": false
+    },
+    {
+      "source": "desktop/glass/geometry.ts",
+      "target": "src/glass/geometry.ts",
+      "sha256": "481561a1eacd3303877ce2279adfe364e9e4f553868c82fe7cdbeab1a7cda507",
+      "normalizedSourceSha256": "481561a1eacd3303877ce2279adfe364e9e4f553868c82fe7cdbeab1a7cda507",
+      "normalizedExtractedSha256": "481561a1eacd3303877ce2279adfe364e9e4f553868c82fe7cdbeab1a7cda507",
+      "adapted": false
+    },
+    {
+      "source": "desktop/glass/glass.ts",
+      "target": "src/glass/glass.ts",
+      "sha256": "938ae4c0f5cdbf27b1ab7f383ae6fc7978f0c8fe6fb20f7fbae54a96bec7116b",
+      "normalizedSourceSha256": "5c51c957d8e3f43ea5581b4e72280aff9723a866391f344e9d3fe28b906c3ee7",
+      "normalizedExtractedSha256": "5c51c957d8e3f43ea5581b4e72280aff9723a866391f344e9d3fe28b906c3ee7",
+      "adapted": false
+    },
+    {
+      "source": "desktop/glass/host.ts",
+      "target": "src/glass/host.ts",
+      "sha256": "45c30d6c6e9d0560b6037dd99a1337ab83db5dff575acc5aa8960e41cc625e4a",
+      "normalizedSourceSha256": "4fbf82b76c55625332b38c074c14f29dfe1ef560ed227da39e0fcacce79f4067",
+      "normalizedExtractedSha256": "0d990469b1d62970961496650e257bbae3de1059f68b2cee6c412e036fbd607f",
+      "adapted": true
+    },
+    {
+      "source": "desktop/glass/index.html",
+      "target": "src/glass/index.html",
+      "sha256": "b0a38970bfa304066a3e0fc49325a2122b78ab431796c84c847c78c1f7b7e9f1",
+      "normalizedSourceSha256": "b0a38970bfa304066a3e0fc49325a2122b78ab431796c84c847c78c1f7b7e9f1",
+      "normalizedExtractedSha256": "ddd23900a340da47af96493b4b300f3ef3d96fd6aefd6a779d333b730a74acc5",
+      "adapted": true
+    },
+    {
+      "source": "desktop/glass/material-settings.ts",
+      "target": "src/glass/material-settings.ts",
+      "sha256": "672297e6dd3077d431c6e4ea8c1b02e1b5ef994bb0ba6d92e70b97d3724d1968",
+      "normalizedSourceSha256": "f26c8e254f5729089d62ffe036483f281790c6353b137ddd31eda8fca7417be8",
+      "normalizedExtractedSha256": "f26c8e254f5729089d62ffe036483f281790c6353b137ddd31eda8fca7417be8",
+      "adapted": false
+    },
+    {
+      "source": "desktop/glass/material-tuner.tsx",
+      "target": "src/glass/material-tuner.tsx",
+      "sha256": "06231e3c7bf3f8115405c104ca02e52384ba8d32b25b022e0d401d77b392999b",
+      "normalizedSourceSha256": "20a09a277ce9fa09185f6605a367ade6fe43baffa9ae66c6b34db46c85a037c2",
+      "normalizedExtractedSha256": "326b4c26c8837bcd8c11de482cbc65a0fa6dc728f37ba900b855878668d347e5",
+      "adapted": true
+    },
+    {
+      "source": "desktop/glass/menu-geometry.ts",
+      "target": "src/glass/menu-geometry.ts",
+      "sha256": "4a5d5ab59243ec46d99b0817b41b52dd4c69ccbb08da1bfcc009565a6efaf457",
+      "normalizedSourceSha256": "4a5d5ab59243ec46d99b0817b41b52dd4c69ccbb08da1bfcc009565a6efaf457",
+      "normalizedExtractedSha256": "4a5d5ab59243ec46d99b0817b41b52dd4c69ccbb08da1bfcc009565a6efaf457",
+      "adapted": false
+    },
+    {
+      "source": "desktop/glass/menu-material.ts",
+      "target": "src/glass/menu-material.ts",
+      "sha256": "58cef0f69c5307ec3ab81eec37ecbe503458af3b2a43a0f933757aceebc0a0a8",
+      "normalizedSourceSha256": "0e64a937bc57d20f00910d7620c7be20104ab49ab89b6e507897dc0144b796ac",
+      "normalizedExtractedSha256": "0e64a937bc57d20f00910d7620c7be20104ab49ab89b6e507897dc0144b796ac",
+      "adapted": false
+    },
+    {
+      "source": "desktop/glass/menu.css",
+      "target": "src/glass/menu.css",
+      "sha256": "ab20c3861d72d20d74bf041d68763922482a8fef9cf2c1efac90d012e72d3017",
+      "normalizedSourceSha256": "a9cd32e37af1351358392f83e4fbb5556c972fa1f83c1cf2132d165151b62d3a",
+      "normalizedExtractedSha256": "a9cd32e37af1351358392f83e4fbb5556c972fa1f83c1cf2132d165151b62d3a",
+      "adapted": false
+    },
+    {
+      "source": "desktop/glass/menu.tsx",
+      "target": "src/glass/menu.tsx",
+      "sha256": "534ea0af5ef028d1f0efa916a9f767d24c783a881b3977519aa238e814a653d6",
+      "normalizedSourceSha256": "23e6b5050dbe18ce7be2dbb57fb01917189585524c1cc767d39f86c35677d23a",
+      "normalizedExtractedSha256": "31829956e60bb7b4ea2809b8df1814e05e901a5e332e38c17c339abe8968cd89",
+      "adapted": true
+    },
+    {
+      "source": "desktop/glass/motion-input.ts",
+      "target": "src/glass/motion-input.ts",
+      "sha256": "8ff0acbd3265be7e7168fe611a4e0a9d071156600c916495977d9f931e7968e9",
+      "normalizedSourceSha256": "8ff0acbd3265be7e7168fe611a4e0a9d071156600c916495977d9f931e7968e9",
+      "normalizedExtractedSha256": "6ecbe4b83339623a62464a27f03db76dd84b7ecf4e69361a610b9e6cb21b0eb1",
+      "adapted": true
+    },
+    {
+      "source": "desktop/glass/motion-preview.ts",
+      "target": "src/glass/motion-preview.ts",
+      "sha256": "3921d8873e5366504de1330bae2876fcc7690b9c9978e6322c2ca6d38ff4e961",
+      "normalizedSourceSha256": "3921d8873e5366504de1330bae2876fcc7690b9c9978e6322c2ca6d38ff4e961",
+      "normalizedExtractedSha256": "3921d8873e5366504de1330bae2876fcc7690b9c9978e6322c2ca6d38ff4e961",
+      "adapted": false
+    },
+    {
+      "source": "desktop/glass/motion-tuner.tsx",
+      "target": "src/glass/motion-tuner.tsx",
+      "sha256": "c4c0fd621d92d07807a3b3baad58751bf355135fda16f17844ff84002d37279a",
+      "normalizedSourceSha256": "c4c0fd621d92d07807a3b3baad58751bf355135fda16f17844ff84002d37279a",
+      "normalizedExtractedSha256": "c5c162519d0a867854f593003b0b3300d543a1942d404b5e67e5cb088b5f465c",
+      "adapted": true
+    },
+    {
+      "source": "desktop/glass/motion.ts",
+      "target": "src/glass/motion.ts",
+      "sha256": "296898101d851f279482c2c8e1bf21f5064b352c1205ecf9c9a47392838906a3",
+      "normalizedSourceSha256": "296898101d851f279482c2c8e1bf21f5064b352c1205ecf9c9a47392838906a3",
+      "normalizedExtractedSha256": "37e3161fb761f2674aff94ef85d57029dd795138d35135f12ecce70e41972c33",
+      "adapted": true
+    },
+    {
+      "source": "desktop/glass/panel-shaders.ts",
+      "target": "src/glass/panel-shaders.ts",
+      "sha256": "330854b24094946b1d773f6bf3efc3a94a1a011cafa0e8903b04aafd10f4767f",
+      "normalizedSourceSha256": "330854b24094946b1d773f6bf3efc3a94a1a011cafa0e8903b04aafd10f4767f",
+      "normalizedExtractedSha256": "330854b24094946b1d773f6bf3efc3a94a1a011cafa0e8903b04aafd10f4767f",
+      "adapted": false
+    },
+    {
+      "source": "desktop/glass/permission.ts",
+      "target": "src/glass/permission.ts",
+      "sha256": "2c540e60839de4f5512604e91dedf725e13daf5d9b992fe13682cffacba95a97",
+      "normalizedSourceSha256": "2c540e60839de4f5512604e91dedf725e13daf5d9b992fe13682cffacba95a97",
+      "normalizedExtractedSha256": "2c540e60839de4f5512604e91dedf725e13daf5d9b992fe13682cffacba95a97",
+      "adapted": false
+    },
+    {
+      "source": "desktop/glass/presets/motion-accepted10.json",
+      "target": "src/glass/presets/motion-accepted10.json",
+      "sha256": "abf5669b99867deec269f01b555f6d56a9ff7a5fd14d1169bda1f366f28edae7",
+      "normalizedSourceSha256": "abf5669b99867deec269f01b555f6d56a9ff7a5fd14d1169bda1f366f28edae7",
+      "normalizedExtractedSha256": "abf5669b99867deec269f01b555f6d56a9ff7a5fd14d1169bda1f366f28edae7",
+      "adapted": false
+    },
+    {
+      "source": "desktop/glass/presets/static-accepted24.json",
+      "target": "src/glass/presets/static-accepted24.json",
+      "sha256": "c85f712063998df003e024237772e26190e3ed701932b02a74335abe71a525ad",
+      "normalizedSourceSha256": "c85f712063998df003e024237772e26190e3ed701932b02a74335abe71a525ad",
+      "normalizedExtractedSha256": "c85f712063998df003e024237772e26190e3ed701932b02a74335abe71a525ad",
+      "adapted": false
+    },
+    {
+      "source": "desktop/glass/presets.ts",
+      "target": "src/glass/presets.ts",
+      "sha256": "b8d5f0fd23acec3e4b2d708a23e00efc3a7fe23b90c74a63a13e691abe382082",
+      "normalizedSourceSha256": "b8d5f0fd23acec3e4b2d708a23e00efc3a7fe23b90c74a63a13e691abe382082",
+      "normalizedExtractedSha256": "b8d5f0fd23acec3e4b2d708a23e00efc3a7fe23b90c74a63a13e691abe382082",
+      "adapted": false
+    },
+    {
+      "source": "desktop/glass/readability.ts",
+      "target": "src/glass/readability.ts",
+      "sha256": "e03a8138a144c85b08da0d3243d50201b2b2e60031e35618e5612bac672a08fd",
+      "normalizedSourceSha256": "2eee607450596fed53e614f5276e2063dd7d31b46024ec6b6bb20d3ef05f384a",
+      "normalizedExtractedSha256": "2eee607450596fed53e614f5276e2063dd7d31b46024ec6b6bb20d3ef05f384a",
+      "adapted": false
+    },
+    {
+      "source": "desktop/glass/settings-store.ts",
+      "target": "src/glass/settings-store.ts",
+      "sha256": "4cd8c9b748b51b45aedb27b03da93d466bc38f4d79b1790cbf79ce9bfc28c25b",
+      "normalizedSourceSha256": "4cd8c9b748b51b45aedb27b03da93d466bc38f4d79b1790cbf79ce9bfc28c25b",
+      "normalizedExtractedSha256": "982266100ed1b7893c70b0d07927e86fcbc911a5b09fc040ca8da61df19047b3",
+      "adapted": true
+    },
+    {
+      "source": "desktop/glass/spatial-ink.ts",
+      "target": "src/glass/spatial-ink.ts",
+      "sha256": "da62b3d98f6e5cbe297ba8d306c7a70ef1ddc26f5788d1d7097e690ff17e91b3",
+      "normalizedSourceSha256": "da62b3d98f6e5cbe297ba8d306c7a70ef1ddc26f5788d1d7097e690ff17e91b3",
+      "normalizedExtractedSha256": "da62b3d98f6e5cbe297ba8d306c7a70ef1ddc26f5788d1d7097e690ff17e91b3",
+      "adapted": false
+    },
+    {
+      "source": "desktop/glass/ui.css",
+      "target": "src/glass/ui.css",
+      "sha256": "1d03e86a204bac1bd1fb60878000a52724c4b68fb39982b6d09b2f031cd9415c",
+      "normalizedSourceSha256": "e1cd7f375c752b4317733e36635ce84a4cb37c0611c59c32c6889ce0f683659f",
+      "normalizedExtractedSha256": "e1cd7f375c752b4317733e36635ce84a4cb37c0611c59c32c6889ce0f683659f",
+      "adapted": false
+    },
+    {
+      "source": "desktop/glass/upstream/LICENSE.txt",
+      "target": "src/glass/upstream/LICENSE.txt",
+      "sha256": "fc2398f73fb001de6506ff9258276f41d0cc7642d1f1a41cbbfd791f346a68ef",
+      "normalizedSourceSha256": "fc2398f73fb001de6506ff9258276f41d0cc7642d1f1a41cbbfd791f346a68ef",
+      "normalizedExtractedSha256": "fc2398f73fb001de6506ff9258276f41d0cc7642d1f1a41cbbfd791f346a68ef",
+      "adapted": false
+    },
+    {
+      "source": "desktop/glass/UPSTREAM.md",
+      "target": "src/glass/UPSTREAM.md",
+      "sha256": "c2d78f090f161cfa4877e955efcbd59bf43656e36033e2e58bdc8632cbc05bb7",
+      "normalizedSourceSha256": "c2d78f090f161cfa4877e955efcbd59bf43656e36033e2e58bdc8632cbc05bb7",
+      "normalizedExtractedSha256": "c2d78f090f161cfa4877e955efcbd59bf43656e36033e2e58bdc8632cbc05bb7",
+      "adapted": false
+    },
+    {
+      "source": "desktop/tests/glass/adaptive-frost-gpu.ts",
+      "target": "tests/glass/adaptive-frost-gpu.ts",
+      "sha256": "85e7ef348fe92550a5a0a6d8966546a37b2ec645c96818c394707e7a3482cedf",
+      "normalizedSourceSha256": "66e5a635aa6eafb6effce5b12bc5174deb08aeaa38ddf393530ca325527fd17f",
+      "normalizedExtractedSha256": "53f905fa4b651836a7bf4c8d18afc9bfabc85c8ae7cf28594a97f2152e9c00a7",
+      "adapted": true
+    },
+    {
+      "source": "desktop/tests/glass/adaptive-ink-gpu.ts",
+      "target": "tests/glass/adaptive-ink-gpu.ts",
+      "sha256": "f04a84a1cf808c078db81f1f8601b556a76a203e691ed34a2761d14892ce8cd2",
+      "normalizedSourceSha256": "f04a84a1cf808c078db81f1f8601b556a76a203e691ed34a2761d14892ce8cd2",
+      "normalizedExtractedSha256": "488c21ac5ddbdaa9cf16f6eb0c40c4abb77f8376e196cbd1359ac6e63b76ee43",
+      "adapted": true
+    },
+    {
+      "source": "desktop/tests/glass/adaptive-ink.test.ts",
+      "target": "tests/glass/adaptive-ink.test.ts",
+      "sha256": "a676333e739b56c2344859d099c8773a5d9c03ba577c53f83476e40c79d94308",
+      "normalizedSourceSha256": "a676333e739b56c2344859d099c8773a5d9c03ba577c53f83476e40c79d94308",
+      "normalizedExtractedSha256": "e64b09f2a03c282d417f726450bab0e6b789de29ce42c96f391f9efbd8e43db1",
+      "adapted": true
+    },
+    {
+      "source": "desktop/tests/glass/deformation.test.ts",
+      "target": "tests/glass/deformation.test.ts",
+      "sha256": "f629ae098b2eb04fc63c11104788f2db05b4190ae638bdb7119c1558cb1bb7c1",
+      "normalizedSourceSha256": "f629ae098b2eb04fc63c11104788f2db05b4190ae638bdb7119c1558cb1bb7c1",
+      "normalizedExtractedSha256": "2985b404f5517c9b05d9ce45d22e75338506d658ce4c82a847015560eea42301",
+      "adapted": true
+    },
+    {
+      "source": "desktop/tests/glass/displays-gpu.ts",
+      "target": "tests/glass/displays-gpu.ts",
+      "sha256": "57d4941afadee8794eb09a0b4f9e3b2c18aa0574b925e197d9fb940ff381bc53",
+      "normalizedSourceSha256": "57d4941afadee8794eb09a0b4f9e3b2c18aa0574b925e197d9fb940ff381bc53",
+      "normalizedExtractedSha256": "115b29bccb4a160eb0f0a8815eed1c074d3a9d5e97b8469f6f734667c4b5ba01",
+      "adapted": true
+    },
+    {
+      "source": "desktop/tests/glass/elastic.test.ts",
+      "target": "tests/glass/elastic.test.ts",
+      "sha256": "25dcbd04491054f3d38e2e3c4ee2edf8a2b0b9dfb72084dcbbd14c3cc3587bef",
+      "normalizedSourceSha256": "25dcbd04491054f3d38e2e3c4ee2edf8a2b0b9dfb72084dcbbd14c3cc3587bef",
+      "normalizedExtractedSha256": "aea56d635d19c5acbc59917c7b35d8eb5af08bb23539bc5bbf0b8c796ffd1833",
+      "adapted": true
+    },
+    {
+      "source": "desktop/tests/glass/elevation-gpu.ts",
+      "target": "tests/glass/elevation-gpu.ts",
+      "sha256": "a18bb2d326c81f53d54fcef80af4533bc986b5a690b7113eaaaafd6421d25b06",
+      "normalizedSourceSha256": "2b328a32b25482e3c66c8f0fb79720e19931c90608865d16c5d62c8268b39cc4",
+      "normalizedExtractedSha256": "99f8fdacb0ed4121dd2c77c4affc1d0c4f1fa2c8a422fa1ca23b97cc00448248",
+      "adapted": true
+    },
+    {
+      "source": "desktop/tests/glass/menu-gpu.tsx",
+      "target": "tests/glass/menu-gpu.tsx",
+      "sha256": "c32e0876b772299829798d7386b3e93482ad5b389ff3a5cd0e1b8602b1e15ce8",
+      "normalizedSourceSha256": "c32e0876b772299829798d7386b3e93482ad5b389ff3a5cd0e1b8602b1e15ce8",
+      "normalizedExtractedSha256": "872dcf6bf4d9533ffb0adf9fba7ec1cb52c58bb1c9b1e622ea6e2e334157e0f7",
+      "adapted": true
+    },
+    {
+      "source": "desktop/tests/glass/motion-dom.tsx",
+      "target": "tests/glass/motion-dom.tsx",
+      "sha256": "52bdc7209fecdd7979dab7a5a19a117199c78a75344e885f88dbbf45a59aea7f",
+      "normalizedSourceSha256": "11071a6cb93953206edc1e05467e83179737243d6636655f5e120d16a03806a0",
+      "normalizedExtractedSha256": "cd07526ce106af06b5b706ae51d8a36a4c90a159143aed953ea0d06b94455257",
+      "adapted": true
+    },
+    {
+      "source": "desktop/tests/glass/motion-tuning.test.ts",
+      "target": "tests/glass/motion-tuning.test.ts",
+      "sha256": "843ea7d63dced5c49763bd67b841f2847a51549fb643c87ba40c052ce095cd92",
+      "normalizedSourceSha256": "843ea7d63dced5c49763bd67b841f2847a51549fb643c87ba40c052ce095cd92",
+      "normalizedExtractedSha256": "bfa36341b65ee13504a673572a2b4cdd6a4e38baff7bdd8e8a2b2ebbe5d62bf1",
+      "adapted": true
+    },
+    {
+      "source": "desktop/tests/glass/motion.test.ts",
+      "target": "tests/glass/motion.test.ts",
+      "sha256": "afdf84722f314397aad7c6beb902f45ddcefd87a7d2f040ae5ee25a7d0a727ed",
+      "normalizedSourceSha256": "f63e6f577d7253732989e788b310cf843cbd7e0387fc25138ea3a479e5669558",
+      "normalizedExtractedSha256": "95255351c9763197739dd14dedf4bfbdbced8d0735997527df8387a6decd35a3",
+      "adapted": true
+    },
+    {
+      "source": "desktop/tests/glass/optics-gpu.ts",
+      "target": "tests/glass/optics-gpu.ts",
+      "sha256": "855b2c02bf3804cc3acdef2a0a3064898169fee097f7d719295ab0fa233586b7",
+      "normalizedSourceSha256": "a1ddfab208f14bc4a86d51c8b8b32a9a40ffc424b567174e9a9ffb9c113deb63",
+      "normalizedExtractedSha256": "b80ef3a91fc8cc244748a31cb330346f070c3aedfccd8c75d5e883194d81ddfb",
+      "adapted": true
+    },
+    {
+      "source": "desktop/tests/glass/probe.test.ts",
+      "target": "tests/glass/probe.test.ts",
+      "sha256": "f697cf4108f8892680364658c33028136f6c3ad807b4aea1171901b44a737176",
+      "normalizedSourceSha256": "a1fb1e83a38820c6b7dbd5ee635c813b73d7d5fc1379d27ad9030b15186f14d4",
+      "normalizedExtractedSha256": "c9881b9e6edd358768fa292b054855f4c063fc480a8299995ce8ac5dac131578",
+      "adapted": true
+    },
+    {
+      "source": "desktop/tests/glass/readability-dom.tsx",
+      "target": "tests/glass/readability-dom.tsx",
+      "sha256": "51bcf7356bf13a87356cc93dd1eea0e949e15dcd90ee3f2a42fd4b52f0460e59",
+      "normalizedSourceSha256": "5adee3be8296e2fb422f9df5e36e6da3795764ea418798d11e2e584dae5beac2",
+      "normalizedExtractedSha256": "bdce0135c8528d5ef8e3b913bc9721e4a09f315dcded3f278ae96b3dd7f306ea",
+      "adapted": true
+    },
+    {
+      "source": "desktop/tests/glass/spatial-ink-gpu.tsx",
+      "target": "tests/glass/spatial-ink-gpu.tsx",
+      "sha256": "8194ac07a6ae4e4042146ce67a5d1af2c6e8b8009f2b6ea15a65b6c2f8225d43",
+      "normalizedSourceSha256": "8194ac07a6ae4e4042146ce67a5d1af2c6e8b8009f2b6ea15a65b6c2f8225d43",
+      "normalizedExtractedSha256": "07e4099d004bcb95dc16dee68c6be7fcab960e80d065a4f3ccd12ad50be012ca",
+      "adapted": true
+    },
+    {
+      "source": "desktop/tests/t15-appearance.test.ts",
+      "target": "tests/appearance.test.ts",
+      "sha256": "4ce6d06f36497285d99b6cbba2b69578a8f1a2fd4c69298c49332f809da6b7d1",
+      "normalizedSourceSha256": "9208593523a08c8e55707f9c52a3110e0a9d902600bed35b145f305fe0974650",
+      "normalizedExtractedSha256": "d4778b43a872d505ba62f004452d40e1e61b37a3b36e0ef809a2d7f44119ba4c",
+      "adapted": true
+    },
+    {
+      "source": "desktop/tests/t15-displays.test.ts",
+      "target": "tests/displays.test.ts",
+      "sha256": "f7b6c89f1d8a4eb44306708e2238f263d494294bee579df0fc16036e9ac3e143",
+      "normalizedSourceSha256": "f7b6c89f1d8a4eb44306708e2238f263d494294bee579df0fc16036e9ac3e143",
+      "normalizedExtractedSha256": "a10e4b0b2e9ca916afecc5bc93f5d90b4b837d2a586bf83b0ce19b7d35d3b740",
+      "adapted": true
+    },
+    {
+      "source": "desktop/tests/t15-display-cache.test.ts",
+      "target": "tests/display-cache.test.ts",
+      "sha256": "c0e95b04f7124d140445c076cc75e7bfbe9973421b13933921e57407e42e1632",
+      "normalizedSourceSha256": "c0e95b04f7124d140445c076cc75e7bfbe9973421b13933921e57407e42e1632",
+      "normalizedExtractedSha256": "4623856eb1ea3d798d6335aeae10dafff60a3d2d76f5f8d9ef238318b3ce2334",
+      "adapted": true
+    },
+    {
+      "source": "desktop/tests/t15-menu.test.ts",
+      "target": "tests/menu.test.ts",
+      "sha256": "05642d715d18bf9fe05ad68d4ef0c316dd3682aa6dc8c168f8ca5c82281704e6",
+      "normalizedSourceSha256": "2bc0e3d8635764bab8c55ef65fbf0f4e742f042d71bae1020d63d45094095dc6",
+      "normalizedExtractedSha256": "05c3f154f4ae7ba230b9f4787441bebe3b6f40580a80c89cb3c96737f5b73dd5",
+      "adapted": true
+    },
+    {
+      "source": "desktop/native/source-catalog.cs",
+      "target": "src/native/source-catalog.cs",
+      "sha256": "577773d7d842a65b70d368aea7b737a7a66e5dc19349744ccfd1e96f21ec85b6",
+      "normalizedSourceSha256": "577773d7d842a65b70d368aea7b737a7a66e5dc19349744ccfd1e96f21ec85b6",
+      "normalizedExtractedSha256": "0a6cdad596fb1a8b3d995f2243eee041f515ba071c48f43607cdbafd5b85ff41",
+      "adapted": true
+    },
+    {
+      "source": "desktop/sources.ts",
+      "target": "src/sources.ts",
+      "sha256": "4807892b72f222ddda0f46c1a775e8e44e2a15ca089a8fe1da33f0c340a8f9c9",
+      "normalizedSourceSha256": "4807892b72f222ddda0f46c1a775e8e44e2a15ca089a8fe1da33f0c340a8f9c9",
+      "normalizedExtractedSha256": "e3063774425d1f388cfd85a3037ec7eae80e9d1cebe196a5555108b575a7e7d2",
+      "adapted": true
+    },
+    {
+      "source": "experiments/T14.8-liquid-glass-motion-probe/UPSTREAM.md",
+      "target": "docs/provenance/HISTORICAL-UPSTREAM.md",
+      "sha256": "e168fae003e3bc513a2334e68d9eb8e5cd25fbb38fe9e63f238a9e9f86843b7f",
+      "normalizedSourceSha256": "e168fae003e3bc513a2334e68d9eb8e5cd25fbb38fe9e63f238a9e9f86843b7f",
+      "normalizedExtractedSha256": "e168fae003e3bc513a2334e68d9eb8e5cd25fbb38fe9e63f238a9e9f86843b7f",
+      "adapted": false
+    },
+    {
+      "source": "scripts/verify-t15-optics.mjs",
+      "target": "scripts/verify-optics.mjs",
+      "sha256": "4398b6b1ad23007abffad683df252b0bbd83d8bcdb0f585b42c14fcc6874d5ed",
+      "normalizedSourceSha256": "3c2425c72945870c132460f6f1a21269e1f10d7260f30b4b0066572e09a763c1",
+      "normalizedExtractedSha256": "bff8c6e7b404ec7c05b137749691da6e44319ef49c13da6cbff7be7ee54d0ef9",
+      "adapted": true
+    },
+    {
+      "source": "desktop/window-placement.ts",
+      "target": "src/window-placement.ts",
+      "sha256": "2dd97fd6bb22ddd52a195ca7d2ec027ab354e713e50248753fbc55609179c2ff",
+      "note": "Only Rect/constrain/adjacentBounds extracted",
+      "normalizedSourceSha256": "2dd97fd6bb22ddd52a195ca7d2ec027ab354e713e50248753fbc55609179c2ff",
+      "normalizedExtractedSha256": "cff84e52396209117a0baf1806de1a887adc93a7de5492736ae60a96808329e9",
+      "adapted": true
+    },
+    {
+      "source": "desktop/main.ts",
+      "target": null,
+      "sha256": "230d07ec45060010c8c2a89b3b5ce6ed68147b4ff5e9ae408dc306c986fae327",
+      "note": "Read-only integration reference; independently adapted host/preload",
+      "normalizedSourceSha256": "df272d23953e73d6e5e3e551ed005f1fbfbbec7adeca9643775b7aed21bdbc1c"
+    },
+    {
+      "source": "desktop/preload.ts",
+      "target": null,
+      "sha256": "b52187ec7b321a97434fc5ce250deddb9149d483ae07c29614ccf5b73a3907de",
+      "note": "Read-only integration reference; independently adapted host/preload",
+      "normalizedSourceSha256": "b52187ec7b321a97434fc5ce250deddb9149d483ae07c29614ccf5b73a3907de"
+    }
+  ],
+  "sourcePreservation": {
+    "checkedAt": "2026-09-26T05:18:09.671Z",
+    "statusUnchanged": true,
+    "diffUnchanged": true,
+    "remotesUnchanged": true,
+    "sourceDiffSha256": "2b73465dec1127ff1e5b10231342a2998c6f3d6b4a20b80b51474b73b1925207"
+  },
+  "upstreamLicense": {
+    "url": "https://raw.githubusercontent.com/iyinchao/liquid-glass-studio/f7b28c36305a862f5cffed3ddd51511cf1204f56/LICENSE",
+    "normalizedSha256": "d140b0d2a62c3d410a0aec64d6a5061764f2723900d68d1b435814c6dab612e8",
+    "checkedAt": "2026-09-26T05:18:10.617Z",
+    "matchesIgnoringLineEndingsAndTrailingWhitespace": true
+  }
+}

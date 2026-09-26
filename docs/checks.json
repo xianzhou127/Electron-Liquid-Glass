@@ -1,0 +1,110 @@
+{
+  "date": "2026-09-26",
+  "unitTests": 69,
+  "typecheck": true,
+  "lint": true,
+  "productionBuild": true,
+  "gpu": {
+    "ok": true,
+    "cases": 38942,
+    "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 2060 (0x00001F15) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "shader": "compiled and linked",
+    "displays": {
+      "seamDpr": [
+        1,
+        1.25,
+        1.4,
+        1.5,
+        2,
+        3
+      ],
+      "syntheticPixelAssertions": "red left, blue right",
+      "allStreamsPrepared": true,
+      "switchesWithoutReacquisition": 200,
+      "crossDpiWithoutRebuild": 20,
+      "atlasReuse": true,
+      "release": true,
+      "sourceEndedReleased": true,
+      "lateCaptureReleased": true,
+      "captureUsed": false,
+      "realDesktopPixelsRead": false
+    },
+    "captureLifecycle": {
+      "input": "synthetic canvas stream only",
+      "blurRefresh": "pass",
+      "hidden": "GL released, no extra draw",
+      "contextLoss": "pass",
+      "pendingTune": "one request",
+      "staleConstraints": "replacement survives",
+      "lateCallback": "pass",
+      "captureUsed": false
+    },
+    "motionDOM": {
+      "contactOriginAndCancel": "actual pointer coordinates mapped to shell DIP; pass",
+      "pressAlignment": "six-group shared pose; DOM primary/more exercised",
+      "dragOut": "pass",
+      "pointerCancel": "pass",
+      "lostCapture": "pass",
+      "touch": "synthetic event semantics only",
+      "keyboard": "pass",
+      "disabled": "pass",
+      "blur": "pass",
+      "reactCallbacks": 12,
+      "feedbackOnce": 1,
+      "reduced": "pass",
+      "release": "pass"
+    }
+  },
+  "desktop": {
+    "ok": true,
+    "checks": [
+      "independent startup and real getDisplayMedia desktop frames",
+      "material HWND content protection enabled",
+      "external document scroll while capture advances",
+      "capsule pointer drag commits anchor",
+      "shared live menu opens",
+      "blur handler closes menu (injected event; not native focus proof)",
+      "menu closes without drawing stale layer",
+      "demo pulse callback",
+      "live tuning and independent saves",
+      "accepted default is preview only",
+      "restore saved values is separate from defaults",
+      "closing tuner preserves demo",
+      "material off releases capture",
+      "hide releases capture",
+      "show reacquires real capture",
+      "context loss releases and degrades",
+      "explicit restart after context loss",
+      "restart restores saved values, discards unsaved preset",
+      "application exits"
+    ],
+    "errors": [],
+    "nativeFocus": "Native outside-window dismissal requires manual confirmation; handler tested with a test-only injected blur",
+    "environment": {
+      "platform": "win32",
+      "os": "10.0.22621",
+      "electron": "44.3.0",
+      "chromium": "152.0.7977.78",
+      "displays": [
+        {
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 1372,
+            "height": 772
+          },
+          "scale": 1.399999976158142,
+          "rotation": 0,
+          "refreshHz": 144,
+          "colorDepth": 24,
+          "depthPerComponent": 8
+        }
+      ]
+    }
+  },
+  "screenshot": {
+    "file": "docs/media/demo.png",
+    "sha256": "d8f313ba6cc967ccd0d8940a04baa02edcc427576708af246aadc955b4d7f3d5",
+    "source": "real production renderer over separate generated document via desktop capture; no private content"
+  }
+}
