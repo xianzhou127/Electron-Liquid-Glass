@@ -27,7 +27,7 @@
 需要 Git、Node.js 24.x / npm 11，以及 Windows 自带 .NET Framework 4.x C# 编译器：`%WINDIR%\Microsoft.NET\Framework64\v4.0.30319\csc.exe`。构建会从源码编译只读显示器元数据工具，无需 Visual Studio 或 .NET SDK。Electron 二进制首次使用可能从其官方分发源下载；网络受限时应按 Electron 官方说明配置下载代理。
 
 ```powershell
-git clone <此私有仓库的克隆地址> Electron-Liquid-Glass
+git clone https://github.com/xianzhou127/Electron-Liquid-Glass.git
 cd Electron-Liquid-Glass
 npm ci
 npm run check
@@ -36,7 +36,7 @@ npm run test:desktop
 npm start
 ```
 
-`npm run check` 顺序执行类型检查、lint、单元测试和生产构建。`npm run build` 生成 `dist/`；`npm start` 运行已有生产输出，`npm run dev` 先构建再启动，`npm start -- --tuner` 同时打开调参窗口。无开发服务器、外部账户或服务配置。不要只拷贝某个 JS 文件；生产目录还需要 renderer、native 和许可证资源，以及匹配 Electron 运行时。
+仓库为 Private，克隆需要已获仓库访问权限的 GitHub 账号；本地演示运行无需账号。`npm run check` 顺序执行类型检查、lint、单元测试和生产构建。`npm run build` 生成 `dist/`；`npm start` 运行已有生产输出，`npm run dev` 先构建再启动，`npm start -- --tuner` 同时打开调参窗口。无开发服务器、外部账户或服务配置。不要只拷贝某个 JS 文件；生产目录还需要 renderer、native 和许可证资源，以及匹配 Electron 运行时。
 
 `test:gpu` 使用合成输入验证 GPU 数值与生命周期，不采集桌面；`test:desktop` **会打开真实桌面采集**，同时打开单独的生成文档窗口，使用独立临时 userData 并自动退出。原始测试结果及本机测试配置写在已忽略的 `artifacts/`，不要上传整个目录。
 

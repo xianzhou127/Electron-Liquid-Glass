@@ -32,4 +32,6 @@ Windows 11 10.0.22621 x64；构建 Node.js 24.18.0 / npm 11.16.0；Electron 44.3
 
 干净检出的原始结果留在该目录已忽略的 `artifacts/optics-gpu-2026-09-26T05-19-39-446Z` 与 `artifacts/desktop-2026-09-26T05-20-02-282Z`。本记录补录只修改文档，不修改已验证的代码。npm 11.16 安装有 ESLint 9 弃用提示和 esbuild install-script 授权提示；本环境实际编译、运行通过，不宣称安装无警告。
 
-GitHub 默认 Private。目前 `gh auth status` 报告未登录，Git Credential Manager 没有 GitHub 账户。未创建远端、未推送、未公开。需要所有者完成 GitHub 登录后才能确认账号、检查同名仓库并创建/核验远端。
+补录提交 `30bf6434c1607db7c413dfe6b327fd246e992871` 又单独克隆至 `Electron-Liquid-Glass-verify-20260926-final`，从 `npm ci` 完成类型检查、lint、69 项测试、生产构建和 19 项真实桌面检查，全部通过；结果位于其已忽略的 `artifacts/desktop-2026-09-26T05-24-22-417Z`。两次检出均使用测试专用 userData，退出后 Git 工作区干净。
+
+初次检查 GitHub 未登录；随后所有者完成登录，核对活动账号为 `xianzhou127`，确认不存在同名仓库后创建并推送 [Electron-Liquid-Glass](https://github.com/xianzhou127/Electron-Liquid-Glass)。GitHub API 核验为 **Private**，默认分支 **main**；没有公开、强推、修改源仓库 remote、发布 npm 或网站。
