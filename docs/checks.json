@@ -106,5 +106,15 @@
     "file": "docs/media/demo.png",
     "sha256": "d8f313ba6cc967ccd0d8940a04baa02edcc427576708af246aadc955b4d7f3d5",
     "source": "real production renderer over separate generated document via desktop capture; no private content"
+  },
+  "cleanCheckout": {
+    "commit": "a370c5532e00635e42bff252427b53ddf8607afd",
+    "clone": "git clone --no-hardlinks --no-local",
+    "install": "npm ci --no-audit --no-fund",
+    "check": true,
+    "gpuCases": 38942,
+    "desktopChecks": 19,
+    "isolatedUserData": true,
+    "copiedDependencies": false
   }
 }

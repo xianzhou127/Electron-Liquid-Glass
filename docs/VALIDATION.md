@@ -28,6 +28,8 @@ Windows 11 10.0.22621 x64；构建 Node.js 24.18.0 / npm 11.16.0；Electron 44.3
 
 ## 干净检出与发布
 
-按 README 从准备发布的 Git 提交另建全新目录，执行 `npm ci`、`npm run check`、GPU 和真实桌面检查。详细提交与最终结果将在完成后补录。
+代码基线提交 `a370c5532e00635e42bff252427b53ddf8607afd`。使用 `git clone --no-hardlinks --no-local` 创建全新检出 `Electron-Liquid-Glass-verify-20260926-a`；未复制 node_modules、构建输出或用户数据，也未建立软链接/junction。从空依赖目录执行 README 中的 `npm ci --no-audit --no-fund`、`npm run check`、`npm run test:gpu`、`npm run test:desktop` 全部退出 0：69 项单元测试、38,942 组 GPU 输入、19 项真实桌面检查通过。Windows 原生工具从源码重新编译；Electron 二进制由依赖下载，不借用原项目目录。
+
+干净检出的原始结果留在该目录已忽略的 `artifacts/optics-gpu-2026-09-26T05-19-39-446Z` 与 `artifacts/desktop-2026-09-26T05-20-02-282Z`。本记录补录只修改文档，不修改已验证的代码。npm 11.16 安装有 ESLint 9 弃用提示和 esbuild install-script 授权提示；本环境实际编译、运行通过，不宣称安装无警告。
 
 GitHub 默认 Private。目前 `gh auth status` 报告未登录，Git Credential Manager 没有 GitHub 账户。未创建远端、未推送、未公开。需要所有者完成 GitHub 登录后才能确认账号、检查同名仓库并创建/核验远端。
